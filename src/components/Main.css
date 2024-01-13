@@ -1,0 +1,750 @@
+
+.topBody{
+    position: relative;
+}
+.dreamImage{
+    height: 40rem;
+    overflow: hidden;
+    margin: 0rem 5rem;
+    border-radius: 0.5rem;
+}
+.dreamImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dreamVacationbox{
+    position: relative;
+}
+.textDream{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 5rem;
+    width: 90%;
+    height: 40rem;
+    background: linear-gradient(to right,
+    rgba(87, 183, 153,1),10%,
+    rgba(87, 183, 153,.9)20%,
+    rgba(79, 166, 183,.3)50%,
+    rgba(79, 166, 183,.2)60%,
+    rgba(79, 166, 183,0)100%);
+    border-radius: 0.5rem;
+}
+.dreamTitle h1{
+    color: black;
+    font-size: 5rem;
+    width: 40rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2rem 4rem;
+}
+.dreamDiscription{
+    color: black;
+    width: 45%;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin: 1rem 4rem;
+}
+.linkDream a{
+    font-size: 1.1rem;
+    color: rgb(11, 74, 11);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem 4rem;
+}
+.linkDream{
+    margin-top: 2rem;
+}
+.linkDream a:hover{
+    color: black;
+}
+
+
+
+/* dropBox css */
+.dropBoxmain{
+    display: flex;
+    justify-content: center;
+ 
+}
+.dropBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+    width: 80%;
+    border-radius: 1rem;
+    height: 15rem;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.7);
+}
+.facilitiesTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem ;
+    width: 20rem;
+}
+.facTitle{
+    font-size: 1.2rem;
+}
+.seemore a{
+    text-decoration: none;
+    color: orange;
+}
+.facilitiesIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    margin: 2rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+    align-items: center;
+}
+.facicon img{
+    width: 1.5rem;
+    align-self: 1/1;
+    object-fit: cover;
+    border: 0.1rem solid rgb(110, 110, 110);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    
+}
+.icons img{
+    width: 1.5rem;
+    align-self: 1/1;
+    object-fit: cover;
+}
+.hotelPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 8rem;
+    border: 0.1rem solid rgb(110, 110, 110);
+    border-radius: 0.1rem;
+    padding: 0.4rem;
+    margin: 3rem 2rem;
+}
+.price{
+    margin-top: 0.2rem;
+}
+.hotelsTitle h3{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.hotelsTitle{
+    margin:2rem 2rem 1.5rem 2rem;
+}
+
+.hotelIcons img{
+    width: 3rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.resultsbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.resultHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.3rem;
+    margin: 2rem;
+    width: 15rem;
+}
+.searchInput input{
+    padding: 0.2rem;
+    background-color:rgb(235, 235, 235);
+    border: 0.1rem solid rgb(206, 206, 206);
+    border-radius: 0.3rem;
+}
+.hotelIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+    width: 15rem;
+}
+
+
+/* second body */
+.secondBody{
+    margin-top: 12rem;
+}
+.secondTitle h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.choicesBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+.secondBody{
+    position: relative;
+}
+.greenBox{
+    background:linear-gradient(to right,
+    rgba(100, 190, 200,0.7),
+    rgba(100, 190, 210,0.7),
+    rgba(72, 183, 167,0.7),
+    rgba(100, 190, 210,0.7),
+    rgba(72, 183, 167,0.7),
+    rgba(100, 190, 210,0.7));
+    width: 90%;
+    height: 12rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 65%;
+    margin: 0rem 5rem;
+    z-index: -1;
+}
+/* third Body */
+.suprise{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 10rem 5rem;
+}
+.leftTitle h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.suprisebox{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 100%;
+    margin: 1.5rem 0rem;
+    
+}
+.supicons{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(157, 233, 247);
+}
+.supicons img{
+    padding: 0.3rem;
+    width: 2rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.suptitle h4{
+    margin-top: 0.7rem;
+}
+.largeImg img{
+    width: 30rem;
+    height: 17rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    border: 0.1rem solid white;
+    margin-bottom: 0.7rem;
+}
+.supriseRight{
+    display: flex;
+    justify-content: center;
+}
+.supiconsss{
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+}
+.supiconsss img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.smallImage{
+    display: flex;
+    justify-content: center;
+}
+.smallImageBox{
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.rightBoxss{
+    position: relative;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.greenBoxes{
+    width: 35rem;
+    height: 15rem;
+    background-color: rgb(176, 240, 249);
+    border-radius: 1rem;
+    position: absolute;
+    top: 35%;
+    z-index: -2;
+}
+
+
+
+/* responsive for 1024px */
+@media screen and (max-width:1025px) {
+    .dreamImage{
+        height: 35rem;
+    }
+    .textDream{
+        height: 35rem;
+    }
+    .dreamTitle h1{
+        color: black;
+        font-size: 4rem;
+        width: 30rem;
+        margin: 2rem 2rem 1rem 2rem;
+    }
+    .dreamDiscription,
+    .linkDream a{
+        margin: 1rem 2rem;
+    }
+
+
+
+        /* dropBox css */
+    .dropBox{
+        width: 80%;
+        height: 13rem;
+        
+    }
+    .facilitiesTitle{
+        width: 15rem;
+    }
+    .facTitle{
+        font-size: 1.1rem;
+    }
+    .seemore a{
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: orange;
+    }
+    .facilitiesIcons{
+        width: 15rem;
+    }
+    .icons{
+        gap: 0.5rem;
+    }
+    .icons h4{
+        font-size: 0.8rem;
+    }
+    .icons img{
+        width: 1rem;
+    }
+    .hotelPrice{
+        width: 7rem;
+        margin: 0rem 1rem;
+    }
+    .price{
+        margin-top: 0.2rem;
+    }
+    .hotelsTitle h3{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .hotelsTitle{
+        margin:2rem 1rem 1.5rem 1rem;
+    }
+
+    .hotelIcons img{
+        width: 2.5rem;
+    }
+    .resultsbox{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .resultHead{
+        width: 12rem;
+        margin:2rem 2rem 2rem 0rem;
+    }
+    .searchInput input{
+        padding: 0.2rem;
+    }
+    .hotelIcons{
+        margin: 0rem 2rem 0rem 0rem ;
+        width: 12rem;
+    }
+
+
+    /* secondBody */
+    .choicesBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem 6rem;
+    }
+    .greenBox{
+        width: 85%;
+        height: 10rem;
+    }
+}
+
+
+
+
+/* responsive for 768px */
+@media screen and (max-width:769px) {
+    .dreamImage,
+    .textDream{
+        height: 30rem;
+        margin: 0rem 2rem;
+    }
+    .dreamTitle h1{
+        color: black;
+        font-size: 3rem;
+        width: 23rem;
+    }
+    .dreamDiscription,
+    .linkDream a{
+        font-size: 1rem;
+    }
+
+
+        /* dropBox css */
+    .dropBox{
+        width: 80%;
+        height: 13rem;
+    }
+    .facilitiesTitle{
+        width: 15rem;
+    }
+    .facTitle{
+        font-size: 1.1rem;
+    }
+    .seemore a{
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: orange;
+    }
+    .facilitiesIcons{
+        width: 15rem;
+    }
+    .icons{
+        gap: 0.5rem;
+    }
+    .icons h4{
+        font-size: 0.8rem;
+    }
+    .icons img{
+        width: 1rem;
+    }
+    .hotelPrice{
+        width: 7rem;
+        margin: 0rem 1rem;
+    }
+    .price{
+        margin-top: 0.2rem;
+    }
+    .hotelsTitle h3{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .hotelsTitle{
+        margin:2rem 1rem 1.5rem 1rem;
+    }
+
+    .hotelIcons img{
+        width: 2.5rem;
+    }
+    .resultsbox{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .resultHead{
+        width: 12rem;
+        margin:2rem 2rem 2rem 0rem;
+    }
+    .searchInput input{
+        padding: 0.2rem;
+    }
+    .hotelIcons{
+        margin: 0rem 2rem 0rem 0rem ;
+        width: 12rem;
+    }
+
+    /* dropBox css */
+    .dropBox{
+        width: 80%;
+        height: 12rem;
+    }
+    .facilitiesTitle{
+        width: 10rem;
+        margin-left: 1rem;
+    }
+    .facTitle{
+        font-size: 1rem;
+    }
+    .seemore a{
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: orange;
+    }
+    .facilitiesIcons{
+        width: 10rem;
+        margin-left: 1rem;
+    }
+    .icons{
+        gap: 0.5rem;
+    }
+    .icons h4{
+        font-size: 0.55rem;
+    }
+    .icons img{
+        width: 0.9rem;
+    }
+    .hotelPrice{
+        width: 6rem;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+    .price{
+        margin-top: 0.2rem;
+        font-size: 0.75rem;
+    }
+    .hotelsTitle h3{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hotelsTitle{
+        margin:2rem 1rem 1.5rem 0rem;
+    }
+
+    .hotelIcons img{
+        width: 2rem;
+    }
+    .resultsbox{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .resultHead{
+        width: 10rem;
+        margin:2rem 3rem 2rem 0rem;
+    }
+    .searchInput input{
+        padding: 0.15rem;
+    }
+    .hotelIcons{
+        margin: 0rem 3rem 0rem 0rem ;
+        width: 10rem;
+    }
+    .greenBox{
+        width: 90%;
+        height: 10rem;
+        margin-left: 2rem;
+    }
+    /* third Body */
+    .suprise{
+        margin: 10rem 2rem;
+    }
+    .leftTitle h3{
+        font-size: 1.8rem;
+    }
+    .largeImg img{
+        width: 20rem;
+        height: 13rem;
+    }
+    .supiconsss{
+        width: 2.2rem;
+    }
+    .smallImageBox{
+        width: 13rem;
+    }
+    .greenBoxes{
+        width: 25rem;
+        height: 12rem;
+    }
+}
+
+
+
+@media screen and (max-width:670px) {
+    .dropBox{
+        width: 80%;
+        height: 70%;
+        flex-wrap: wrap;
+    }
+    .resultHead{
+        width: 10rem;
+        margin:-5rem 0rem 2rem 5rem;
+    }
+    .hotelIcons{
+        margin: -1rem 3rem 0rem 5rem ;
+        width: 10rem;
+    }
+      /* secondBody */
+    .choicesBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem 0.5rem;
+    }
+    .greenBox{
+        width: 90%;
+        height: 10rem;
+        margin-left: 2rem;
+    }
+    .secondTitle h1{
+        font-size: 3rem;
+        margin-top: 20rem;
+    }
+}
+
+
+/* responsive for 425px */
+@media screen and (max-width:426px) {
+    .dreamImage,
+    .textDream{
+        height: 30rem;
+        margin: 0rem 2rem;
+    }
+    .dreamTitle h1{
+        color: black;
+        font-size: 1.5rem;
+        width: 12rem;
+        margin-left: 1rem;
+    }
+    .dreamDiscription,
+    .linkDream a{
+        font-size: 0.9rem;
+        margin-left: 1rem;
+        line-height: 1rem;
+    }
+          /* secondBody */
+    .choicesBox{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       margin-left: 25%;
+
+    }
+    .secondTitle h1{
+        font-size: 2.5rem;
+        margin-top: 20rem;
+    }
+    .greenBox{
+        width: 10rem;
+        height: 70%;
+        left: 28%;
+        top: 10rem;
+    }
+        /* third Body */
+    .suprise{
+        margin: 10rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftTitle{
+        margin-left: 3rem;
+    }
+    .surpiseIcons{
+        margin-left: 3rem;
+    }
+    .leftTitle h3{
+        font-size: 1.8rem;
+    }
+    .largeImg img{
+        width: 20rem;
+        height: 13rem;
+    }
+    .supiconsss{
+        width: 2.2rem;
+    }
+    .smallImageBox{
+        width: 13rem;
+    }
+    .greenBoxes{
+        width: 24rem;
+        height: 12rem;
+    }
+    
+
+
+}
+
+
+
+
+
+/* responsive for 376px */
+@media screen and (max-width:396px) {
+    .dreamImage,
+    .textDream{
+        height: 30rem;
+        margin: 0rem 2rem;
+    }
+    .dropBox{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .resultHead{
+        width: 10rem;
+        margin:2rem 0rem 0rem 5rem;
+    }
+    .hotelIcons{
+        margin: 1rem 3rem 0rem 5rem ;
+        width: 10rem;
+    }
+    .hotelsTitle{
+        margin:2rem 1rem 1rem 5rem;
+    }
+    .hotelPrice{
+        width: 6rem;
+        margin: 0rem 1rem 0rem 5rem;
+    }
+    .facilitiesTitle,
+    .facilitiesIcons{
+        margin-left: 5rem;
+        margin-bottom: 0rem;
+    }
+    .secondTitle h1{
+        font-size: 2.5rem;
+        margin-top: 30rem;
+    }
+    .greenBox{
+        width: 10rem;
+        height: 70%;
+        left: 25%;
+        top: 10rem;
+    }
+    .choicesBox{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       margin-left: 20%;
+
+    }
+    /* thirdbody */
+    .largeImg img{
+        width: 17rem;
+        height: 11rem;
+    }
+    .smallImageBox{
+        width: 10rem;
+    }
+    .greenBoxes{
+        width: 22rem;
+        height: 10rem;
+    }
+
+
+}
