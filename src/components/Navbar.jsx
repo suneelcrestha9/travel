@@ -40,8 +40,8 @@ export default function Navbar() {
         </div>
                 <div className="ham" onClick={handelActive}>
                     {ham== true ? 
-                    (<img src="./src/assets/ham.png" alt="" />) : 
-                    (<img src="./src/assets/close.png" alt="" />)}
+                    (<img src="./assets/ham.png" alt="" />) : 
+                    (<img src="./assets/close.png" alt="" />)}
                 </div>
     </nav>
     </>

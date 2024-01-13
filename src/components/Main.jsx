@@ -9,7 +9,7 @@ export default function Main() {
             <div className="topBodymain">
                 <div className="dreamVacationbox">
                     <div className="dreamImage">
-                        <img src="./src/assets/main.jpg" alt="" />
+                        <img src="./assets/main.jpg" alt="" />
                     </div>
                     <div className="textDream">
                         <div className="dreamTitle">
@@ -38,19 +38,19 @@ export default function Main() {
                             </div>
                             <div className="facilitiesIcons">
                                 <div className="icons facicon swimming">
-                                    <img src="./src/assets/swim.png" alt="swimming icon" />
+                                    <img src="./assets/swim.png" alt="swimming icon" />
                                     <h4>Swimming</h4>
                                 </div>
                                 <div className="icons facicon wifi">
-                                    <img src="./src/assets/wifi.png" alt="wifi icon" />
+                                    <img src="./assets/wifi.png" alt="wifi icon" />
                                     <h4>Wi-Fi</h4>
                                 </div>
                                 <div className="icons facicon ac">
-                                        <img src="./src/assets/ac.png" alt="ac icon" />
+                                        <img src="./assets/ac.png" alt="ac icon" />
                                     <h4>Ac</h4>
                                 </div>
                                 <div className="icons facicon dinner">
-                                <img src="./src/assets/dinner.png" alt="dinner icon" />
+                                <img src="./assets/dinner.png" alt="dinner icon" />
                                     <h4>Dinner</h4>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ export default function Main() {
                             </div>
                             <div className="hotelPrice">
                                 <div className="priceIcon icons">
-                                    <img src="./src/assets/check.png" alt="" />
+                                    <img src="./assets/check.png" alt="" />
                                 </div>
                                 <div className="price">
                                     <p>USD $506.00</p>
@@ -75,21 +75,21 @@ export default function Main() {
                                     <input type="search" placeholder='150 Requests' name="" id="" />
                                 </div>
                                 <div className="searchIcon icons">
-                                    <img src="./src/assets/search.png" alt="" />
+                                    <img src="./assets/search.png" alt="" />
                                 </div>
                             </div>
                             <div className="hotelIcons">
                                 <div className="hotelImages">
-                                    <img src="./src/assets/hol1.jpg" alt="" />
+                                    <img src="./assets/hol1.jpg" alt="" />
                                 </div>
                                 <div className="hotelImages">
-                                    <img src="./src/assets/hol2.jpg" alt="" />
+                                    <img src="./assets/hol2.jpg" alt="" />
                                 </div>
                                 <div className="hotelImages">
-                                    <img src="./src/assets/hol3.jpg" alt="" />
+                                    <img src="./assets/hol3.jpg" alt="" />
                                 </div>
                                 <div className="hotelImages">
-                                    <img src="./src/assets/hol4.jpg" alt="" />
+                                    <img src="./assets/hol4.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -104,9 +104,9 @@ export default function Main() {
                 <h1>Entire city of choice</h1>
             </div>
             <div className="choicesBox">
-                <Choices image={'./src/assets/hol4.jpg'} title={'MIRACLE RESORT'} id={"987732"} resort={"Turkey Resort"} price={'$400.00'} />
-                <Choices image={'./src/assets/hol2.jpg'} title={'NAGARKOT RESORT'} id={"981232"} resort={"Larabal Resort"} price={'$900.00'}/>
-                <Choices image={'./src/assets/hol3.jpg'} title={'NEPAL RESORT'} id={"928632"} resort={"Mountain Resort"} price={'$400.00'}/>
+                <Choices image={'./assets/hol4.jpg'} title={'MIRACLE RESORT'} id={"987732"} resort={"Turkey Resort"} price={'$400.00'} />
+                <Choices image={'./assets/hol2.jpg'} title={'NAGARKOT RESORT'} id={"981232"} resort={"Larabal Resort"} price={'$900.00'}/>
+                <Choices image={'./assets/hol3.jpg'} title={'NEPAL RESORT'} id={"928632"} resort={"Mountain Resort"} price={'$400.00'}/>
             </div>
             <div className="greenBox">
             </div>
@@ -123,7 +123,7 @@ export default function Main() {
                 <div className="surpiseIcons">
                     <div className="suprisebox">
                         <div className="supicons">
-                            <img src="./src/assets/swim2.png" alt="" />
+                            <img src="./assets/swim2.png" alt="" />
                         </div>
                         <div className="suptitle">
                             <h4>Infinity Pool</h4>
@@ -131,7 +131,7 @@ export default function Main() {
                     </div>
                     <div className="suprisebox">
                         <div className="supicons">
-                            <img src="./src/assets/bath.png" alt="" />
+                            <img src="./assets/bath.png" alt="" />
                         </div>
                         <div className="suptitle">
                             <h4>The Beach</h4>
@@ -139,7 +139,7 @@ export default function Main() {
                     </div>
                     <div className="suprisebox">
                         <div className="supicons">
-                            <img src="./src/assets/island.png" alt="" />
+                            <img src="./assets/island.png" alt="" />
                         </div>
                         <div className="suptitle">
                             <h4>Beach Suprises</h4>
@@ -147,7 +147,7 @@ export default function Main() {
                     </div>
                     <div className="suprisebox">
                         <div className="supicons">
-                            <img src="./src/assets/sun.png" alt="" />
+                            <img src="./assets/sun.png" alt="" />
                         </div>
                         <div className="suptitle">
                             <h4>Beach Activities</h4>
@@ -159,18 +159,18 @@ export default function Main() {
                 <div className="supriseRight">
                     <div className="supriseRightBox">
                         <div className="largeImg">
-                            <img src="./src/assets/main2.jpg" alt="" />
+                            <img src="./assets/main2.jpg" alt="" />
                         </div>
                         <div className="smallImage">
                             <div className="smallImageBox">
                                 <div className="supiconsss">
-                                    <img src="./src/assets/hol1.jpg" alt="" />
+                                    <img src="./assets/hol1.jpg" alt="" />
                                 </div>
                                 <div className="supiconsss">
-                                    <img src="./src/assets/main2.jpg" alt="" />
+                                    <img src="./assets/main2.jpg" alt="" />
                                 </div>
                                 <div className="supiconsss">
-                                    <img src="./src/assets/hol3.jpg" alt="" />
+                                    <img src="./assets/hol3.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
