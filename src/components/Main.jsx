@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css'
 import Choices from './Choices'
+import Footer from './Footer'
 
 export default function Main() {
   return (
@@ -181,6 +182,49 @@ export default function Main() {
                 </div>
             </div>
         </div>
+        {/* forthBody */}
+        <div className="thirdBody">
+            <div className="rightBody">
+                <div className="imagesMainBox">
+                    <div className="relaxBox">
+                        <img src="./assets/hol1.jpg" alt="" />
+                    </div>
+                    <div className="relaxBox">
+                        <img src="./assets/hol3.jpg" alt="" />
+                    </div>
+                    <div className="relaxBox">
+                        <img src="./assets/hol2.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div className="rightBBody">
+                <div className="choiseTitle">
+                    <h4>Welcome to MRstudio Resort</h4>
+                </div>
+                <div className="relaxingTitle">
+                    <h1>Relaxing Pleasure</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quis ut. Libero voluptas natus hic rerum dolorum non odit reiciendis dignissimos quibusdam. Assumenda sit aspernatur repellendus adipisci. Dolor ex expedita numquam repellendus pariatur reprehenderit magnam perferendis incidunt, eos officia magni minus natus corrupti asperiores, necessitatibus optio iure debitis? Cum, distinctio?</p>
+                </div>
+            </div>
+        </div>
+
+        {/* footer */}
+        <div className="aboutus-box">
+                <div className="">
+                    <Footer  url={"./assets/hos.jpg"}  title={"Best Hospitality"} description={"We welcome and  provide best hospitality to here."} />
+                </div>
+
+                <div className="">
+                    <Footer  url={"./assets/best.jpg"}  title={"Best in Nepal"} description={"Our resort is the best in the whole Nepal"} />
+                </div>
+
+                <div className="">
+                    <Footer  url={"./assets/ref.jpg"}  title={"Easy Refund"} description={"Within 24 hours of cancelation, we provide you refund"} />
+                </div>
+        </div>
+
+
+        
     </section>
   )
 }
